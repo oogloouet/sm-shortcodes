@@ -1,0 +1,498 @@
+i.mce-i-icon {
+    content: "\2605";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 20px/1 'dashicons';
+    vertical-align: top;
+}
+.sm_anchor {
+    text-decoration: none !important;
+    color:  white !important; 
+}
+
+.sm_button_round {
+    width: 150px;
+    height: 40px;
+    display: table;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    margin: 5rem 0;
+}
+
+.sm_button_sharp {
+    width: 150px;
+    height: 40px;
+    display: table;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5rem;
+    margin: 5rem 0;
+}
+
+.sm_alerts {
+    width: 100%;
+    display: block;
+    vertical-align:top;
+    font-size: 2rem;
+    color: white;	
+    border-radius: 3px;
+    padding: 2rem;
+    margin:5rem 0;
+}
+
+.sm_color1 {background-color: #FD575F;}
+.sm_color2 {background-color: #AED14E;}
+.sm_color3 {background-color: #B482C9;}
+.sm_color4 {background-color: #72BBF0;}
+.sm_color5 {background-color: #FFD900;}
+
+/*********************
+* Tabs CSS
+*********************/
+
+.sm_tab_wrapper {
+    margin: 5rem auto;
+    display: table;
+    width: 100%;
+}
+.sm_tab_content {
+    background-color:#ffffff;
+    box-sizing: border-box;
+    padding:10px; 	
+    width: 100%;
+}
+
+.tab_content_wrapper{
+    clear:both;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #dfdfdf;
+    font-size: 18px;
+    line-height: 30px;
+    color: #959799;
+}
+
+ul.sm_tab_ul {
+    margin-bottom: -1px; 
+    position: relative;
+    z-index: 50;
+    list-style: none!important;
+    margin: 0!important;
+    padding: 0;
+    background: none;
+    border: 0;
+    float: none;
+}
+
+ul.sm_tab_ul li{
+    float: left;
+    position: relative;
+    margin: 0 2px -1px 0!important;
+    z-index: 10;
+    list-style: none!important;
+}
+
+ul.sm_tab_ul li a{
+    list-style:none;
+    display: block;
+    padding: 15px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    background: #fff;
+    text-decoration:none;
+}
+
+ul.sm_tab_ul li.active a{
+
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-bottom: -1px;
+	
+}
+
+ul.sm_tab_ul li.active{
+    border-left: 5px solid #DBDBDB;
+    border-top: 5px solid #DBDBDB;
+	
+}
+
+
+/***************
+* Accordions
+***************/
+#sm_toggle_tabs
+{
+    font-family:arial;
+    font-size:1.5rem;
+    margin: 5rem 0; 
+}
+
+#sm_toggle_tabs h3 + div 
+{
+    height: 0px; 
+    padding: 0px;
+    overflow: hidden;
+    display: block!important;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition:all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#sm_toggle_tabs h3.open
+{
+    background-color:#F5F5F5;
+}
+#sm_toggle_tabs h3.open + div 
+{	
+    height: auto;
+    margin-top:0px;
+
+}
+#sm_toggle_tabs h3 
+{
+    border-bottom: 1px solid #DDDDDD; 
+    border-right: 1px solid #DDDDDD; 
+    border-top: 1px solid #DDDDDD; 
+    font-size: 1.8rem; 
+    font-weight: normal; 
+    margin: 0;	
+    padding: 2rem 0 2rem;
+    line-height:2rem;
+}
+#sm_toggle_tabs h3 a
+{
+    padding: 3px 37px;
+    display:block
+}
+#sm_toggle_tabs h3 a
+{
+    color:#666;
+    text-decoration:none;
+}
+#sm_toggle_tabs h3 a:hover{}
+#sm_toggle_tabs h3 a:focus{outline:none} 
+#sm_toggle_tabs h3.open a
+{
+    background-image:url(minus.png);
+    background-repeat:no-repeat;
+}
+#sm_toggle_tabs h3.close a
+{
+    background-image:url(plus.png); 
+    background-repeat:no-repeat;
+}
+#sm_toggle_tabs .sm_toggle_content 
+{	
+    overflow: hidden;
+    padding: 1rem 0 1rem 3rem;
+    margin-top:0px;
+    border-bottom: 1px solid #DDDDDD; 
+    border-right: 1px solid #DDDDDD; 
+}
+
+/***************
+* BlockQuotes
+***************/
+
+.sm_blockquote
+{
+    margin: 5rem 0;
+    border: 1px solid #f2f2f2;
+    border-left: 0;
+    border-right: 0;
+    padding: 1em 0;
+    font-family: arial;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #272727;
+}
+.sm_blockquote.left_text {text-align:left;}
+.sm_blockquote.right_text {text-align:right;}
+.sm_blockquote.center_text {text-align:center;}
+.sm_blockquote_cite 
+{
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+/***************
+* Code
+***************/
+.sm_code
+{
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: .4rem;
+    font-size: 1rem;
+    font-family: monospace;
+    display: block;
+    width: 100%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    margin: 5rem 0;
+}
+
+.sm_code i {
+    padding-right: 1rem;
+}
+
+/***************
+* Custom Heading
+***************/
+.sm_custom_heading
+{
+    display: block;
+    width: 100%;
+}
+.sm_custom_heading_content
+{ 
+    font-size: 2rem;
+    vertical-align: middle;
+    font-family: Arial;
+    margin: 5rem 0;
+}
+.sm_custom_heading_left
+{
+    text-align:left;
+}
+.sm_custom_heading_right
+{
+    text-align:right;
+}
+.sm_custom_heading_center
+{
+    text-align:center;
+}
+/***************
+* Highlight
+***************/
+.sm_highlight_light
+{
+    padding: 0.2rem;
+    margin: 0 0.2rem;
+    background-color: #ff2a13;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+.sm_highlight_dark
+{
+    padding: 0.2rem;
+    margin: 0 0.2rem;
+    background-color: #767886;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+/***************
+* Images
+***************/
+.sm_img_round{
+    display: block !important;
+    text-align: center;
+}
+/*** Use images for equal width and Height ***/
+.sm_img_circle{
+    display: block !important;
+    text-align: center;
+}
+.sm_img_thumbnail{
+    display: block;
+    text-align: center;
+}
+/***************
+* Line
+***************/
+.sm_line
+{
+    margin: 1rem 0;
+}
+/***************
+* Prompt
+***************/
+ .sm_prompt_main_wrapper
+{
+    display: block;
+    width: 100%;
+
+}
+.sm_prompt_content
+{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding: 1rem;
+}
+div.sm_prompt_content h2  
+{
+    font-family: Arial;
+    letter-spacing: -1px;
+    font-weight: 300;
+    font-size: 2rem;
+}
+div.sm_prompt_content p {font-family: Arial; color: #979797; font-size: 1rem;}
+.sm_prompt_button
+{
+    display: inline-block;
+    width: 50%;
+    vertical-align: bottom;
+    padding: 1.5rem;
+    margin-bottom:1.5rem;
+}
+.sm_prompt_button_text {background-color: #ff2a13; padding : 0.6rem 1rem; width: 100%; color: #fff; border-radius: 0.4rem;}
+.sm_prompt_button a
+{
+    text-decoration :none !important;
+    text-transform: uppercase;
+}
+.sm_prompt_button a:hover
+{
+    color:white;
+}
+
+/***************
+* Progress Bars
+***************/
+.sm_progress_heading
+{
+    margin-top: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: -0.5rem;
+}
+.sm_progress_main_wrapper
+{
+    height: 25px;
+    margin-bottom: 1em;
+    margin-top: 1rem;
+    background-color: #f2f2f2;
+}
+.sm_progress_bar
+{
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.sm_progress_percent
+{
+    height: 1.7rem;
+    margin: 0.5rem 0.5rem;
+    width: 2.7rem;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #fff;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 4px;
+}
+/***************
+* Drop Cap
+***************/
+.sm_dropcap
+{
+    float: left;
+    margin-right: 0.2rem;
+    padding: 0.1em 0.2em;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    color: #fff;
+    background-color: #ff2a13;
+    border-radius: 4px;
+}
+/***************
+* Google Maps
+***************/
+.sm_map_main_wrapper
+{
+    display: table;
+    width: 100%;
+    margin: 5rem auto;
+}
+iframe
+{
+    width: 100%;
+    display: block;
+    height: 300px !important;
+    margin-bottom: 0 !important;
+}
+
+/***************
+* Columns
+***************/
+.sm_full_width {display:block; width: 100%;margin-bottom: 5rem;margin-top: 5rem;}
+.sm_last {margin-right: 0 !important;}
+.sm_one_half {display:inline-block; width: 49%; vertical-align:top; margin-right: 1rem;margin-bottom: 5rem;margin-top: 5rem;}
+.sm_one_third {display:inline-block; width: 32%; vertical-align:top; margin-right: 1rem;margin-bottom: 5rem;margin-top: 5rem;}
+.sm_one_fourth {display:inline-block; width: 24%; vertical-align:top; margin-right: 1rem;margin-bottom: 5rem;margin-top: 5rem;}
+.sm_one_fifth {display: inline-block;width: 19%;vertical-align: top;margin-right: 1rem;margin-bottom: 5rem;margin-top: 5rem;}
+.sm_two_third{display:inline-block; width: 67%; vertical-align:top; margin-right: 1rem;margin-bottom: 5rem;margin-top: 5rem;}
+.sm_three_fourth{display:inline-block; width: 75%; vertical-align:top; margin-right: 1rem;margin-bottom: 5rem;margin-top: 5rem;}
+.sm_two_fifth{display:inline-block; width: 41%; vertical-align:top; margin-right: 1rem;margin-bottom: 5rem;margin-top: 5rem;}
+.sm_three_fifth{display:inline-block; width: 58%; vertical-align:top; margin-right: 1rem;margin-bottom: 5rem;margin-top: 5rem;}
+.sm_four_fifth{display:inline-block; width: 80%; vertical-align:top; margin-right: 1rem;margin-bottom: 5rem;margin-top: 5rem;}
+
+/***************
+* Share
+***************/
+#sm_main_share{
+
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+#sm_main_share p {
+
+    margin: 1rem 0;
+    text-transform: uppercase;
+    border: 1px solid #DBDADA;
+    border-left: 0;
+    border-right: 0;
+    padding: 1rem 0;
+    font-size: 12px;
+    font-size: 1rem;
+    text-align: center;
+    color: #7a7a7a;
+}
+.sm_social {
+
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3rem;
+}
+.sm_social a:hover {
+
+    font-size: 1.2rem;
+}
+.sm_fonts_awesome{
+    font-size: 2rem !important;
+}
+
+/***************
+* Private
+***************/
+.sm_private
+{
+    padding:5rem 0;
+}
+
+/***************
+* Video
+***************/
+.sm_video_main_wrapper
+{
+    padding:5rem 0;
+}

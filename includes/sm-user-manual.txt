@@ -1,0 +1,190 @@
+/**********************************************
+                 Button Shortcode 
+**********************************************/
+Short Description : Allows you to insert buttons on your post and pages
+
+Long Description : Buttons shortcode allows you to easily insert buttons of different color and 
+shape on you blog post and pages. It gives you a range of pretty decent colors and types to create 
+some fancy buttons.
+
+Types : - Round  - Sharp 
+
+Color : -Red(#FD575F) -Green(#AED14E) -Purple(#B482C9) -Yellow(#72BBF0) -Blue(#FFD900)
+
+
+/**********************************************
+                 Alerts Shortcode 
+**********************************************/
+Short Description : Allows you to insert Alerts on your post and pages.
+
+Long Description : Alerts shortcode allows you to easily insert alerts of different color 
+on you blog post and pages. It gives you a range of pretty decent colors to create 
+some fancy alerts.
+
+Color : -Red(#FD575F) -Green(#AED14E) -Purple(#B482C9) -Yellow(#72BBF0) -Blue(#FFD900)
+
+
+/**********************************************
+                 Tabs Shortcode 
+**********************************************/
+Short Description : Allows you to insert Tabs on your post and pages.
+
+Long Description : Tabs shortcode allows you to easily insert horizontal tabs using jquery 
+on you blog post and pages. It gives you a range from 2 to 3 tabs creation options.
+
+Types : 2Tabs, 3Tabs
+
+/**********************************************
+                 Toggle Shortcode 
+**********************************************/
+Short Description : Allows you to insert Accordion effect toggle on your post and pages.
+
+Long Description : Toggle shortcode allows you to easily insert accordion effect on you 
+paragraphs using jquery on you blog post and pages. It gives you a range from 2 to 3 toggle
+ creation options.
+
+Types : 2Toggle, 3Toggle
+
+/**********************************************
+                 Blockquote Shortcode 
+**********************************************/
+Short Description : Allows you to insert Quotes with proper citation on your post and pages.
+
+Long Description : Blockquote shortcode allows you to easily insert quotes within your paragraphs
+on you blog post and pages. It gives you a three ways to align your blockquote.
+
+Types : Left, Right, Center
+
+/**********************************************
+                 Code Shortcode 
+**********************************************/
+Short Description : Allows you to insert HTML/CSS scripts with prominent look on your post and pages.
+
+Long Description : Code shortcode allows you to easily insert HTML/CSS snippets within your paragraphs
+on you blog post and pages.
+
+
+/**********************************************
+                 Heading Shortcode 
+**********************************************/
+Short Description : Allows you to create custom heading on your post and pages.
+
+Long Description : Heading shortcode allows you to create custom Heading within your paragraphs
+on you blog post and pages. It gives you a three ways to align your Heading.
+
+Align : Left, Right, Center
+
+/**********************************************
+                 Gap Shortcode 
+**********************************************/
+Short Description : Allows you to insert vertical gap in paragraph of your post and pages.
+
+Long Description : Gap shortcode allows you to insert vertical spacing within your paragraph 
+or paragraphs on you blog post and pages. It gives you a an option to enter custom height for
+spacing in pixels.
+
+Size : Custom Spacing Height , Default 100px;
+
+/**********************************************
+                 Highlight Shortcode 
+**********************************************/
+Short Description : Allows you to Highlight some text on your post and pages.
+
+Long Description : Highlight shortcode allows you to highlight some text within your paragraphs
+on you blog post and pages. It gives you two theme options to choose from.
+
+Theme : Light, Dark
+
+/**********************************************
+                 Image Shortcode 
+**********************************************/
+Short Description : Allows you to insert Images on your post and pages.
+
+Long Description : Image shortcode allows you to insert images on you blog post and pages. 
+It gives you a three ways to style images.
+
+Types : Round, Circle ( for this option use image of equal width and height ), Thumbnail
+
+/**********************************************
+                 Line Shortcode 
+**********************************************/
+Short Description : Allows you to insert a horizontal separator ( line ) on your post and pages.
+
+/**********************************************
+                 Prompt Shortcode 
+**********************************************/
+Short Description : Allows you to insert prompt messages on your post and pages.
+
+Long Description : Prompt shortcode allows you to generate prompt messages with title and message 
+and a CLICK ME button on you blog post and pages. It gives you a two ways to set your prompt.
+
+Title : Title/Heading of the Prompt
+Message : Text to be displayed below the heading.
+Type : Left, Right
+Button_text : Text to be displayed on the button.
+
+/**********************************************
+                 Progress_bar Shortcode 
+**********************************************/
+Short Description : Allows you to insert progress or skill bars on your post and pages.
+
+Long Description : Progress shortcode allows you to place progress bars on you blog post and pages. 
+It gives you a liberty to generate as many progress bars with headings and percentage of the skill.
+
+Heading : Text to be displayed above the progress bar
+Percentage : Percentage of that specific skill out of 100.
+Style : Set the background-color of the progress bar.
+
+/**********************************************
+                 DropCap Shortcode 
+**********************************************/
+Short Description : Allows you to stylize any letter or letters in the paragraph on your post and pages.
+
+Long Description : Dropcap shortcode allows you to make first letter or letters of your paragraph prominent 
+by giving it a cool style on you blog post and pages.
+
+/**********************************************
+                 Map Shortcode 
+**********************************************/
+Short Description : Allows you to insert google maps on your post and pages.
+
+Long Description : Map shortcode allows you to insert Google maps within your paragraphs
+on you blog post and pages. All you need is to provide the embed source code of the google maps in the src attribute
+of the shortcode.
+
+src : Plug in the src code of your google map here.
+
+/**********************************************
+                 Column Shortcode 
+**********************************************/
+Short Description : Allows you to insert Columns on your post and pages.
+
+Long Description : Columns shortcode allows you to insert Multiple Range columns within your paragraphs
+on you blog post and pages. All you need is to provide the column range or column ratio and their Heading 
+and texts.
+
+Type : Full Width - One Half - One Third - One Fourth - One Fifth - Two Thirds - Three Fourths - Two Fifths - Four Fifths
+Title : The heading of each Paragraph in a column
+Content : The Content of each paragraph.
+
+/**********************************************
+                 Private Shortcode 
+**********************************************/
+Short Description : Allows you to Hide Content Form non Registered users of the site.
+
+Long Description : Private shortcode allows you to insert content that is not visible to non registered users.
+Only logged in visitors have the access to that content. 
+
+
+/**********************************************
+                 Video Shortcode 
+**********************************************/
+Short Description : Allows you to embed Videos on your post and pages.
+
+Long Description : Video shortcode allows you to embed your videos from youtube or vimeo right on your website 
+with your desired width and height !
+
+Type : Youtube - Vimeo
+Id : ID of the video that you want to play ! 
+Width : Width of the Video player !
+Height : Height of the video player !
