@@ -10,7 +10,7 @@ SM shortcodes allow you to insert awesome shortcodes right through your tinymce 
 
 == Description ==
 
-SM Shortcodes registers a button in tinymce editor in wordpress and allows you to easily embed shortoces snippets to your pages and posts through mouse clicks without requiring you to tyoe in the shortcodes.
+SM Shortcodes registers a button in tinymce editor in wordpress and allows you to easily embed shortoces snippets to your pages and posts through mouse clicks without requiring you to type in the shortcodes.
 
 You can select from many shortcodes that are available in this plugin like, buttons, alerts, tabs, accordions, prompt messages, Google maps, images, videos, line, verticle gap, social shares, columns, code, custom heading, Dropcap, Progress bars. Fill in the appropriate fields and click on the `OK` button and you are DONE !
 
